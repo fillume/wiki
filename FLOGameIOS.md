@@ -19,9 +19,11 @@
 	* 下载pthread pthreads-w32-2-9-1-release,并添加到include 和lib目录到工程中 pthreads-w32-2-9-1-release\Pre-built.2\include
 * 编译
     * 修改AndroidUtil.h 中的文件
+	
     /*if(CC_TARGET_PLATFORM==CC_PLATFORM_ANDROID)
     include "platform/android/jni/JniHelper.h"
     include <android/log.h>
     endif
     */
+	
    * 编译完成后debug,Resource打包到一起
