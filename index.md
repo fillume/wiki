@@ -1,7 +1,7 @@
-##乘过很多次公交，却仍不知道它的故事]
-从历史上看，杭州有公共交通最早可追溯到1922年冬，资商潘宝泉等开办“永华汽车行”，杭州开通了从湖滨━灵隐的第一条公交线路。至今，已有14000余名员工，4514余辆公交车辆，381条公交线路。几十年的风风雨雨，也有了属于他自身的故事。
 
 ##
-![640.jpg](./images/6404.jpg)
+[斗地主IOS版编译指南](http://wiki.fillume.com/#!FLOGameIOS.md)
+[斗地主Android版编译指南](http://wiki.fillume.com/#!FLOGameAndroid.md)
+[斗地主windows版编译指南](http://wiki.fillume.com/#!FLOGame.md)
 
 
