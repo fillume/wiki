@@ -1,24 +1,24 @@
-##IOS µÄ¿ª·¢»·¾³ÅäÖÃ
+ï»¿##IOS çš„å¼€å‘ç¯å¢ƒé…ç½®
 
-##×¼±¸
-* ×îĞÂ´úÂëËùÔÚÎ»ÖÃÎªgithub µÄTEST_LITTLE_CLIENT branch.
-* ÔÚDocumentsÄ¿Â¼ÏÂĞÂ½¨COCOS2D_HOMEÄ¿Â¼,ÏÂÔØ²¢½âÑ¹cocos2d-x 2.2.2µ½´ËÄ¿Â¼,ÔÚcocos2d-x-2.2.2/tools/project-creater Ä¿Â¼ÏÂÔËĞĞ ./create_project.py -project FLO_Android -package com.fillume.flo -language cpp
-* ÔÚDocumentsÄ¿Â¼ÏÂĞÂ½¨ANDROID_NDK_HOMEÄ¿Â¼,¸´ÖÆandroid-ndk-r8e
-* ĞŞ¸Ä.bash_profile Ìí¼Óexport PATH=/Users/fillume/Documents/ANDROID_NDK_HOME/android-ndk-r8e/toolchains/arm-linux-androideabi-4.7/prebuilt/darwin-x86/bin:/Users/fillume/Documents/workspace/android-sdk-macosx/platform-tools:$PATH
-* ½«fightland_src.zip ½âÑ¹²¢¸²¸Çµ½flo_android,ÓĞFLO_Android, floret, IOS_Ref Èı¸öÄ¿Â¼£¬ ´ò¿ªFLO_AndroidÏÂÃæµÄÓÃXcode
+##å‡†å¤‡
+* æœ€æ–°ä»£ç æ‰€åœ¨ä½ç½®ä¸ºgithub çš„TEST_LITTLE_CLIENT branch.
+* åœ¨Documentsç›®å½•ä¸‹æ–°å»ºCOCOS2D_HOMEç›®å½•,ä¸‹è½½å¹¶è§£å‹cocos2d-x 2.2.2åˆ°æ­¤ç›®å½•,åœ¨cocos2d-x-2.2.2/tools/project-creater ç›®å½•ä¸‹è¿è¡Œ ./create_project.py -project FLO_Android -package com.fillume.flo -language cpp
+* åœ¨Documentsç›®å½•ä¸‹æ–°å»ºANDROID_NDK_HOMEç›®å½•,å¤åˆ¶android-ndk-r8e
+* ä¿®æ”¹.bash_profile æ·»åŠ export PATH=/Users/fillume/Documents/ANDROID_NDK_HOME/android-ndk-r8e/toolchains/arm-linux-androideabi-4.7/prebuilt/darwin-x86/bin:/Users/fillume/Documents/workspace/android-sdk-macosx/platform-tools:$PATH
+* å°†fightland_src.zip è§£å‹å¹¶è¦†ç›–åˆ°flo_android,æœ‰FLO_Android, floret, IOS_Ref ä¸‰ä¸ªç›®å½•ï¼Œ æ‰“å¼€FLO_Androidä¸‹é¢çš„ç”¨Xcode
 
-##ÈçºÎ±àÒë£¿
-* ĞŞ¸Äbuild settingÖĞµÄlib, headerÂ·¾¶
-* ±àÒëÔËĞĞ
+##å¦‚ä½•ç¼–è¯‘ï¼Ÿ
+* ä¿®æ”¹build settingä¸­çš„lib, headerè·¯å¾„
+* ç¼–è¯‘è¿è¡Œ
 
-* ½øÈë~/Documents/COCOS2D_HOME/cocos2d-x-2.2.2/projects/FLO_Android/Ä¿Â¼,ÔÚproj.androidÄ¿Â¼ÏÂÔËĞĞbuild_native.sh
+* è¿›å…¥~/Documents/COCOS2D_HOME/cocos2d-x-2.2.2/projects/FLO_Android/ç›®å½•,åœ¨proj.androidç›®å½•ä¸‹è¿è¡Œbuild_native.sh
 
-* ÅäÖÃ»·¾³±äÁ¿
-    * cocos2d Ö¸Ïòcocos2d-2.1rc0-x-2.1.2-hotfix Ä¿Â¼
-    * boost_home Ö¸Ïò boost¿âµÄÄ¿Â¼ boost_1_53_0
-	* ÏÂÔØpthread pthreads-w32-2-9-1-release,²¢Ìí¼Óµ½include ºÍlibÄ¿Â¼µ½¹¤³ÌÖĞ pthreads-w32-2-9-1-release\Pre-built.2\include
-* ±àÒë
-    * ĞŞ¸ÄAndroidUtil.h ÖĞµÄÎÄ¼ş
+* é…ç½®ç¯å¢ƒå˜é‡
+    * cocos2d æŒ‡å‘cocos2d-2.1rc0-x-2.1.2-hotfix ç›®å½•
+    * boost_home æŒ‡å‘ booståº“çš„ç›®å½• boost_1_53_0
+	* ä¸‹è½½pthread pthreads-w32-2-9-1-release,å¹¶æ·»åŠ åˆ°include å’Œlibç›®å½•åˆ°å·¥ç¨‹ä¸­ pthreads-w32-2-9-1-release\Pre-built.2\include
+* ç¼–è¯‘
+    * ä¿®æ”¹AndroidUtil.h ä¸­çš„æ–‡ä»¶
 	   /*if(CC_TARGET_PLATFORM==CC_PLATFORM_ANDROID)
 
 include "platform/android/jni/JniHelper.h"
@@ -28,4 +28,4 @@ include <android/log.h>
 endif
 
 */
-   * ±àÒëÍê³Éºódebug,Resource´ò°üµ½Ò»Æğ
+   * ç¼–è¯‘å®Œæˆådebug,Resourceæ‰“åŒ…åˆ°ä¸€èµ·

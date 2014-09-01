@@ -1,18 +1,18 @@
-##android µÄ¿ª·¢»·¾³ÅäÖÃ
+ï»¿##android çš„å¼€å‘çŽ¯å¢ƒé…ç½®
 
-##×¼±¸
-* ×îÐÂ´úÂëËùÔÚÎ»ÖÃÎªgithub µÄTEST_LITTLE_CLIENT branch.
-* ÔÚDocumentsÄ¿Â¼ÏÂÐÂ½¨COCOS2D_HOMEÄ¿Â¼,ÏÂÔØ²¢½âÑ¹cocos2d-x 2.2.2µ½´ËÄ¿Â¼,ÔÚcocos2d-x-2.2.2/tools/project-creater Ä¿Â¼ÏÂÔËÐÐ ./create_project.py -project FLO_Android -package com.fillume.flo -language cpp
-* ÔÚDocumentsÄ¿Â¼ÏÂÐÂ½¨ANDROID_NDK_HOMEÄ¿Â¼,¸´ÖÆandroid-ndk-r8e
-* ÐÂ½¨ CHINA_MOBILE_SDKÄ¿Â¼,½«ÒÆ¶¯¿ª·¢°ü¸´ÖÆµ½´ËÄ¿Â¼
-* ÐÞ¸Ä.bash_profile Ìí¼Óexport PATH=/Users/fillume/Documents/ANDROID_NDK_HOME/android-ndk-r8e/toolchains/arm-linux-androideabi-4.7/prebuilt/darwin-x86/bin:/Users/fillume/Documents/workspace/android-sdk-macosx/platform-tools:$PATH
-* ½«fightland_src.zip ½âÑ¹²¢¸²¸Çµ½flo_android,ÓÐFLO_Android, floret, IOS_Ref Èý¸öÄ¿Â¼£¬ ´ò¿ªFLO_AndroidÏÂÃæµÄÓÃXcode
+##å‡†å¤‡
+* æœ€æ–°ä»£ç æ‰€åœ¨ä½ç½®ä¸ºgithub çš„TEST_LITTLE_CLIENT branch.
+* åœ¨Documentsç›®å½•ä¸‹æ–°å»ºCOCOS2D_HOMEç›®å½•,ä¸‹è½½å¹¶è§£åŽ‹cocos2d-x 2.2.2åˆ°æ­¤ç›®å½•,åœ¨cocos2d-x-2.2.2/tools/project-creater ç›®å½•ä¸‹è¿è¡Œ ./create_project.py -project FLO_Android -package com.fillume.flo -language cpp
+* åœ¨Documentsç›®å½•ä¸‹æ–°å»ºANDROID_NDK_HOMEç›®å½•,å¤åˆ¶android-ndk-r8e
+* æ–°å»º CHINA_MOBILE_SDKç›®å½•,å°†ç§»åŠ¨å¼€å‘åŒ…å¤åˆ¶åˆ°æ­¤ç›®å½•
+* ä¿®æ”¹.bash_profile æ·»åŠ export PATH=/Users/fillume/Documents/ANDROID_NDK_HOME/android-ndk-r8e/toolchains/arm-linux-androideabi-4.7/prebuilt/darwin-x86/bin:/Users/fillume/Documents/workspace/android-sdk-macosx/platform-tools:$PATH
+* å°†fightland_src.zip è§£åŽ‹å¹¶è¦†ç›–åˆ°flo_android,æœ‰FLO_Android, floret, IOS_Ref ä¸‰ä¸ªç›®å½•ï¼Œ æ‰“å¼€FLO_Androidä¸‹é¢çš„ç”¨Xcode
 
-##ÈçºÎ±àÒë£¿
-* ½øÈë~/Documents/COCOS2D_HOME/cocos2d-x-2.2.2/projects/FLO_Android/Ä¿Â¼,ÔÚproj.androidÄ¿Â¼ÏÂÔËÐÐbuild_native.sh,Éú³Élibgame.soµ½libs/armeabi/ÖÐ
-* ¸´ÖÆCHINA_MOBILE_SDK libsÖÐµÄlibmegjb.soµ½libs/armeabiÖÐ¡£¸´ÖÆassetsµ½assetsÖÐ
-* ´ò¿ªeclipseÉú³Éapk
+##å¦‚ä½•ç¼–è¯‘ï¼Ÿ
+* è¿›å…¥~/Documents/COCOS2D_HOME/cocos2d-x-2.2.2/projects/FLO_Android/ç›®å½•,åœ¨proj.androidç›®å½•ä¸‹è¿è¡Œbuild_native.sh,ç”Ÿæˆlibgame.soåˆ°libs/armeabi/ä¸­
+* å¤åˆ¶CHINA_MOBILE_SDK libsä¸­çš„libmegjb.soåˆ°libs/armeabiä¸­ã€‚å¤åˆ¶assetsåˆ°assetsä¸­
+* æ‰“å¼€eclipseç”Ÿæˆapk
 
-##Ð­Òé±ä¸ü
-* Éú³ÉµÄÐ­ÒéAppProtocolÄ¿Â¼ÖÐ½«ËùÓÐ ">>("¸Ä³É"> >("
+##åè®®å˜æ›´
+* ç”Ÿæˆçš„åè®®AppProtocolç›®å½•ä¸­å°†æ‰€æœ‰ ">>("æ”¹æˆ"> >("
 

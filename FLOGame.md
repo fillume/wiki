@@ -1,22 +1,22 @@
-##windows µÄ¿ª·¢»·¾³ÅäÖÃ
+ï»¿##windows çš„å¼€å‘ç¯å¢ƒé…ç½®
 
-##×¼±¸
-* ×îĞÂ´úÂëËùÔÚÎ»ÖÃÎªgithub µÄTEST_LITTLE_CLIENT branch.
-* °²×°visual studio 2010.
-* ÏÂÔØpthread  pthreads-w32-2-9-1-release
+##å‡†å¤‡
+* æœ€æ–°ä»£ç æ‰€åœ¨ä½ç½®ä¸ºgithub çš„TEST_LITTLE_CLIENT branch.
+* å®‰è£…visual studio 2010.
+* ä¸‹è½½pthread  pthreads-w32-2-9-1-release
 
 
 
-##ÈçºÎ±àÒë£¿
-* visual studio ´ò¿ª¹¤³ÌÎÄ¼ş  
-    * Î»ÖÃ Fight_Land_Owner_Client_VS\FightLanderOwner\FightLanderOwner.sln
+##å¦‚ä½•ç¼–è¯‘ï¼Ÿ
+* visual studio æ‰“å¼€å·¥ç¨‹æ–‡ä»¶  
+    * ä½ç½® Fight_Land_Owner_Client_VS\FightLanderOwner\FightLanderOwner.sln
 
-* ÅäÖÃ»·¾³±äÁ¿
-    * cocos2d Ö¸Ïòcocos2d-2.1rc0-x-2.1.2-hotfix Ä¿Â¼
-    * boost_home Ö¸Ïò boost¿âµÄÄ¿Â¼ boost_1_53_0
-	* ÏÂÔØpthread pthreads-w32-2-9-1-release,²¢Ìí¼Óµ½include ºÍlibÄ¿Â¼µ½¹¤³ÌÖĞ pthreads-w32-2-9-1-release\Pre-built.2\include
-* ±àÒë
-    * ĞŞ¸ÄAndroidUtil.h ÖĞµÄÎÄ¼ş
+* é…ç½®ç¯å¢ƒå˜é‡
+    * cocos2d æŒ‡å‘cocos2d-2.1rc0-x-2.1.2-hotfix ç›®å½•
+    * boost_home æŒ‡å‘ booståº“çš„ç›®å½• boost_1_53_0
+	* ä¸‹è½½pthread pthreads-w32-2-9-1-release,å¹¶æ·»åŠ åˆ°include å’Œlibç›®å½•åˆ°å·¥ç¨‹ä¸­ pthreads-w32-2-9-1-release\Pre-built.2\include
+* ç¼–è¯‘
+    * ä¿®æ”¹AndroidUtil.h ä¸­çš„æ–‡ä»¶
 	   /*if(CC_TARGET_PLATFORM==CC_PLATFORM_ANDROID)
 
 include "platform/android/jni/JniHelper.h"
@@ -26,7 +26,7 @@ include <android/log.h>
 endif
 
 */
-   * ±àÒëÍê³Éºódebug,Resource´ò°üµ½Ò»Æğ
+   * ç¼–è¯‘å®Œæˆådebug,Resourceæ‰“åŒ…åˆ°ä¸€èµ·
 
 
 
